@@ -60,4 +60,11 @@ return {
       vim.g.mkdp_echo_preview_url = 1
     end,
   },
+
+  {
+    "nvzone/typr",
+    dependencies = "nvzone/volt",
+    opts = {},
+    cmd = { "Typr", "TyprStats" },
+  },
 }
